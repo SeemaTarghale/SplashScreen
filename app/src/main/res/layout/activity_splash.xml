@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="285dp"
+        android:layout_height="238dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/flower" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/by_flowry"
+        android:layout_gravity="center"
+        android:layout_marginTop="130sp"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+
+</LinearLayout>
