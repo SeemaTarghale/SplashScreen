@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        TextView t1;
+        TextView t1,t2;
         EditText e1,e2;
         Button b1;
         super.onCreate(savedInstanceState);
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         t1=findViewById(R.id.txt1);
+        t2=findViewById(R.id.txt2);
         e1=findViewById(R.id.ed1);
         e2=findViewById(R.id.ed2);
         b1=findViewById(R.id.btn);
@@ -38,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(MainActivity.this,MainActivity2.class);
+                startActivity(i);
+            }
+        });
+        t2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(MainActivity.this,MainActivity3.class);
                 startActivity(i);
             }
         });

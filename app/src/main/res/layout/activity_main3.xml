@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginLeft="60sp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:drawableLeft="@drawable/username"
+        android:inputType="text"
+        android:hint="  Enter Your Name" />
+
+    <EditText
+        android:id="@+id/ed6"
+        android:layout_width="250sp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/email"
+        android:layout_marginTop="20sp"
+        android:hint="  Enter Email" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="250sp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/phone"
+        android:inputType="number"
+        android:layout_marginTop="20sp"
+        android:hint="  Enter mobile no" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="250sp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/password"
+        android:layout_marginTop="20sp"
+        android:hint=" Enter Password" />
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="250sp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/password"
+        android:layout_marginTop="20sp"
+        android:hint=" Confirm Password" />
+
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="250sp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:drawableLeft="@drawable/otp"
+        android:hint="  Enter OTP" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160sp"
+        android:layout_marginTop="50sp"
+        android:text="Sign Up"/>
+
+</LinearLayout>
