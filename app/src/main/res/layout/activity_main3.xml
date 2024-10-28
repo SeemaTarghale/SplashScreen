@@ -9,10 +9,9 @@
     <TextView
         android:layout_gravity="center"
         android:layout_marginTop="40sp"
-        android:layout_width="250sp"
+        android:layout_width="150sp"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:layout_marginLeft="60sp"
         android:textSize="30sp"
         android:textStyle="bold" />
 
