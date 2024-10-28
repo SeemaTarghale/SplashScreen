@@ -10,22 +10,21 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="285dp"
-        android:layout_height="238dp"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
         android:layout_gravity="center"
-        android:layout_marginLeft="10sp"
-        android:layout_marginTop="190dp"
-        android:src="@drawable/flower" />
+        android:layout_marginTop="250dp"
+        android:src="@drawable/whatsapp" />
 
     <TextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/by_flowry"
+        android:text="By Meta"
         android:layout_gravity="center"
-        android:layout_marginTop="130sp"
+        android:layout_marginTop="150sp"
         android:textSize="20sp"
-        android:textStyle="bold|italic"/>
+        android:textStyle="bold"/>
 
 
 </LinearLayout>

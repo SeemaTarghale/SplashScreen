@@ -12,7 +12,7 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="130sp"
+        android:layout_marginTop="140sp"
         android:text="Login"
         android:textStyle="bold"
         android:textSize="30sp"
@@ -21,7 +21,7 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="300sp"
         android:layout_height="350sp"
-        android:layout_marginTop="60sp"
+        android:layout_marginTop="80sp"
         android:layout_gravity="center">
 
         <LinearLayout
