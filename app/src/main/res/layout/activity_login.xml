@@ -12,7 +12,7 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140sp"
+        android:layout_marginTop="170sp"
         android:text="Login"
         android:textStyle="bold"
         android:textSize="30sp"
@@ -21,7 +21,7 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="300sp"
         android:layout_height="350sp"
-        android:layout_marginTop="80sp"
+        android:layout_marginTop="60sp"
         android:layout_gravity="center">
 
         <LinearLayout
@@ -36,7 +36,7 @@
                 android:layout_height="60sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20sp"
-                android:drawableLeft="@drawable/username"
+                android:drawableLeft="@drawable/usericon"
                 android:inputType="text"
                 android:hint="  Enter Your Name" />
 
@@ -45,17 +45,28 @@
                 android:layout_width="250sp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:drawableLeft="@drawable/phone"
+                android:drawableLeft="@drawable/password"
                 android:inputType="number"
                 android:layout_marginTop="20sp"
-                android:hint="  Enter mobile no" />
+                android:hint="  Enter Password" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:text="Forgot Password?"
+                android:textColor="@color/darkgreen"
+                android:textSize="13sp"
+                android:textStyle="bold|italic" />
 
             <Button
                 android:id="@+id/btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="80sp"
-                android:layout_marginTop="50sp"
+                android:layout_marginTop="30sp"
                 android:backgroundTint="@color/green"
                 android:textColor="@color/black"
                 android:text="Login" />
@@ -65,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:text="Sing up?"
+                android:text="Sign up?"
                 android:layout_marginTop="10sp"
                 android:textSize="15sp"
                 android:textStyle="bold" />

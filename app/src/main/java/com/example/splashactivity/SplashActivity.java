@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
     @Override  //Annotation
     protected void onCreate(Bundle savedInstanceState) {
         ImageView image;
-        TextView text;
+        TextView text1,text2;
         Animation fadeInAnim;
         super.onCreate(savedInstanceState);
         WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
@@ -34,10 +34,12 @@ public class SplashActivity extends AppCompatActivity {
             return insets;
         });
         image=findViewById(R.id.logo);
-        text=findViewById(R.id.text);
+        text1=findViewById(R.id.text);
+        text2=findViewById(R.id.text2);
         fadeInAnim= AnimationUtils.loadAnimation(SplashActivity.this,R.anim.animation);
         image.setAnimation(fadeInAnim);
-        text.setAnimation(fadeInAnim);
+        text1.setAnimation(fadeInAnim);
+        text2.setAnimation(fadeInAnim);
         Handler h;  //object declaration
         h=new Handler(); // object Initialization
         //Handler h=new Handler();     Shortcut
